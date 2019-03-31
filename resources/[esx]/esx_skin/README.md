@@ -1,50 +1,35 @@
-# esx_identity
+# esx_skin
 
 ## Requirements
-* Dependencies For Full Functionality
-  * [esx_skin](https://github.com/ESX-Org/esx_skin)
-  * [esx_policejob](https://github.com/ESX-Org/esx_policejob)
-  * [esx_society](https://github.com/ESX-Org/esx_society)
+- [skinchanger](https://github.com/ESX-Org/skinchanger)
 
 ## Download & Installation
 
 ### Using [fvm](https://github.com/qlaffont/fvm-installer)
 ```
-fvm install --save --folder=esx esx-org/esx_identity
+fvm install --save --folder=esx esx-org/esx_skin
 ```
 
 ### Using Git
 ```
 cd resources
-git clone https://github.com/ESX-Org/esx_identity [esx]/esx_identity
+git clone https://github.com/ESX-Org/esx_skin [esx]/esx_skin
 ```
 
 ### Manually
-- Download https://github.com/ESX-Org/esx_identity/archive/master.zip
+- Download https://github.com/ESX-Org/esx_skin/archive/master.zip
 - Put it in the `[esx]` directory
 
 ## Installation
-- Import `esx_identity.sql` in your database
-- Add this to your `server.cfg`:
+- Add this in your `server.cfg`:
 
 ```
-start esx_identity
-```
-
-- If you are using esx_policejob or esx_society, you need to enable the following in the scripts' `config.lua`:
-```Config.EnableESXIdentity          = true```
-
-### Commands
-```
-/register
-/charlist
-/charselect
-/chardel
+start esx_skin
 ```
 
 # Legal
 ### License
-esx_identity - rp characters
+esx_skin - skin selector for ESX
 
 Copyright (C) 2015-2018 Jérémie N'gadi
 
